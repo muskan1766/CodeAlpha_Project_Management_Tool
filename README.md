@@ -1,6 +1,6 @@
 # 📋 Project Management Tool
 
-A full-stack Project Management Tool built using **Node.js, Express.js, MongoDB, HTML, CSS, and JavaScript**. This application allows users to register, log in securely, create collaborative projects, assign tasks, communicate through comments, and manage projects efficiently.
+A full-stack **Project Management Tool** built using **Node.js, Express.js, MongoDB, HTML, CSS, and JavaScript**. This application allows users to register, log in securely, create collaborative projects, assign tasks, communicate through comments, and manage projects efficiently.
 
 ---
 
@@ -144,15 +144,15 @@ Open the **frontend** folder using **Live Server** in VS Code.
 
 # 📸 Screenshots
 
-## Login Page
-
-![Login](screenshots/login.png)
-
----
-
 ## Register Page
 
 ![Register](screenshots/register.png)
+
+---
+
+## Login Page
+
+![Login](screenshots/login.png)
 
 ---
 
@@ -164,7 +164,7 @@ Open the **frontend** folder using **Live Server** in VS Code.
 
 ## Project Tasks
 
-![Project Tasks](screenshots/project.png)
+![Project Tasks](screenshots/tasks.png)
 
 ---
 
@@ -182,6 +182,5 @@ Open the **frontend** folder using **Live Server** in VS Code.
 
 # 👩‍💻 Author
 
-**Muskan Malik**
+**Muskan**
 
-GitHub: https://github.com/muskan1766
