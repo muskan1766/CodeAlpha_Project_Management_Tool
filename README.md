@@ -102,7 +102,7 @@ Project-Management-Tool/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/muskan1766/Project-Management-Tool.git
+git clone https://github.com/muskan1766/CodeAlpha_Project_Management_Tool.git
 ```
 
 ### 2. Navigate to the project folder
