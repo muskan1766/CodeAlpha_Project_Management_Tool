@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Project Tasks</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 id="projectTitle">
+            Project Tasks
+        </h1>
+
+        <form>
+
+            <input
+                type="text"
+                id="taskName"
+                placeholder="Enter Task Name"
+            >
+
+            <br><br>
+
+            <input
+                type="text"
+                id="assignedTo"
+                placeholder="Assign To"
+            >
+
+            <br><br>
+
+            <button
+                type="button"
+                id="addTaskBtn"
+                class="mainBtn"
+            >
+                Add Task
+            </button>
+
+        </form>
+
+        <p id="taskMessage"></p>
+
+        <h2>Tasks</h2>
+
+        <div id="tasksList"></div>
+
+        <br>
+
+        <button
+            class="mainBtn"
+            onclick="window.location.href='dashboard.html'"
+        >
+            Back To Dashboard
+        </button>
+
+    </div>
+
+    <script src="js/project.js"></script>
+
+</body>
+
+</html>

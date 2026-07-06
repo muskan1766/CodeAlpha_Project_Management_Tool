@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Project Dashboard</h1>
+
+        <div class="projectForm">
+
+            <input
+                type="text"
+                id="projectName"
+                placeholder="Enter Project Name"
+            >
+
+            <br><br>
+
+            <input
+                type="text"
+                id="projectMembers"
+                placeholder="Add Members (e.g. user b,user c)"
+            >
+
+            <button
+                id="createProjectBtn"
+                class="mainBtn"
+            >
+                Create Project
+            </button>
+
+            <p id="projectMessage"></p>
+
+        </div>
+
+        <div id="projectsContainer">
+
+        </div>
+
+        <h3>My Projects</h3>
+
+        <div id="projectsList"></div>
+
+        <p id="projectMessage"></p>
+
+        <button
+            id="logoutBtn"
+            class="logoutBtn"
+        >
+            Logout
+        </button>
+
+    </div>
+
+    <script src="js/dashboard.js"></script>
+
+</body>
+</html>
